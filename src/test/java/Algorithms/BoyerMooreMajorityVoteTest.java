@@ -21,9 +21,9 @@ public class BoyerMooreMajorityVoteTest {
             int[] arr = testArrays[i];
 
             if (expected[i] == null) {
-                assertThrows(IllegalArgumentException.class, () -> {
-                    Main.majorityElement(arr);
-                }, "Expected exception for array index " + i);
+                assertThrows(IllegalArgumentException.class,
+                () -> Main.majorityElement(arr),
+                "Expected exception for array index " + i);
             } else {
                 Result result = Main.majorityElement(arr);
                 assertEquals(expected[i], result.majority, "Mismatch for array index " + i);

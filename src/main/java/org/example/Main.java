@@ -9,6 +9,8 @@ public class Main {
         System.out.println("Majority element: " + result.majority);
         System.out.println("Comparisons: " + result.comparisons);
         System.out.println("Array accesses: " + result.arrayAccesses);
+
+        BenchmarkRunner.main();
     }
 
     public static Result majorityElement(int[] nums) {
