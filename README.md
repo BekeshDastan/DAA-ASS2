@@ -1,5 +1,5 @@
 
-## 📘 README Conclusion — *BoyerMooreMajorityVoteTest*  
+## 📘 README Conclusion — *BoyerMooreMajorityVote*  
 
 This project implements, tests, and benchmarks the **Boyer-Moore Majority Vote Algorithm**, an efficient algorithm used to find the majority element in an array (the element that appears more than ⌊n/2⌋ times). The algorithm operates in **O(n)** time and **O(1)** space, making it one of the most optimal solutions for this problem.  
 
